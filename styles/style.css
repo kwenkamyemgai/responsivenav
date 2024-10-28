@@ -46,10 +46,11 @@ ul li:hover {
   height: 20px;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   header{
     height: 735px;
   }
+
   nav {
     width: 500px;
   }
