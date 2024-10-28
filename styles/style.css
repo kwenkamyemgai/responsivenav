@@ -13,7 +13,7 @@ nav {
   backdrop-filter: blur(30px);
   box-shadow: 0 0 30px rgb(8 2 2 / 73%);
   border: 1.5px solid rgb(169 144 144 / 10%);
-  width: 1150px;
+  width: 115%;
   height: auto;
   border-radius: 10px;
   padding-left: 40px;
@@ -52,7 +52,7 @@ ul li:hover {
   }
 
   nav {
-    width: 500px;
+    width: 50%;
   }
 
   ul {
