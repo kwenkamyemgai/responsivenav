@@ -46,7 +46,7 @@ ul li:hover {
   height: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 76.8%) {
   header {
     height: 735px;
   }
