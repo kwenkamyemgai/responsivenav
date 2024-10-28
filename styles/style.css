@@ -11,7 +11,7 @@ header {
 nav {
   display: inline-flex;
   backdrop-filter: blur(30px);
-  box-shadow: 0px 0px 30px rgb(8 2 2 / 73%);
+  box-shadow: 0 0 30px rgb(8 2 2 / 73%);
   border: 1.5px solid rgb(169 144 144 / 10%);
   width: 1100px;
   height: auto;
@@ -31,28 +31,17 @@ ul {
   color: white;
   margin-left: 500px;
   list-style-type: none;
-  gap: 15px;
+  gap: 20px;
 }
 
 ul li a {
   color: #fff;
   text-decoration: none;
   font-size: larger;
-  font-size: larger;
   padding-top: 10px;
-  text-decoration: none;
 }
 
-ul li::after {
-  content: '';
-  width: 0%;
-  height: 2px;
-  background: #f44336;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-ul li:hover::after {
-  width: 100%;
+ul li:hover {
+  background-color: rgba(255, 0, 0, 0.499);
+  height: 20px;
 }
