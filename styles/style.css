@@ -46,8 +46,8 @@ ul li:hover {
   height: 20px;
 }
 
-@media(max-width: 768px) {
-  header{
+@media (max-width: 768px) {
+  header {
     height: 735px;
   }
 
@@ -65,12 +65,12 @@ ul li:hover {
 
   .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
+          "FILL" 0,
+          'wght' 400,
+          "GRAD" 0,
+          'opsz' 24;
   }
-  
+   
   .material-symbols-outlined {
     display: flex;
     color: white;
