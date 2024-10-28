@@ -13,7 +13,7 @@ nav {
   backdrop-filter: blur(30px);
   box-shadow: 0 0 30px rgb(8 2 2 / 73%);
   border: 1.5px solid rgb(169 144 144 / 10%);
-  width: 1100px;
+  width: 1150px;
   height: auto;
   border-radius: 10px;
   padding-left: 40px;
@@ -44,4 +44,37 @@ ul li a {
 ul li:hover {
   background-color: #ff000094;
   height: 20px;
+}
+
+@media(max-width: 768px) {
+  header{
+    height: 735px;
+  }
+
+  nav {
+    width: 500px;
+  }
+
+  ul {
+    display: none;
+    color: white;
+    margin-left: 500px;
+    list-style-type: none;
+    gap: 20px;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  
+  .material-symbols-outlined {
+    display: flex;
+    color: white;
+    margin-left: 350px;
+    padding-top: 20px;
+  }
 }
